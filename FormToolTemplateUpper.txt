@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-svg lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if IE 7]><html class="no-svg lt-ie9 lt-ie8" lang="en"> <![endif]-->
+<!--[if IE 8]><html class="no-svg lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--><html lang="en"><!--<![endif]-->
+
+<head>
+
+	<meta charset="utf-8">
+	<title>Page Title | Unit or Department at WSU</title>
+
+	<!-- The WSU logo as a favicon -->
+	<link rel="shortcut icon" href="https://repo.wsu.edu/spine/2/favicon.ico" />
+
+	<!-- The primary WSU Spine stylesheet -->
+	<link href="https://repo.wsu.edu/spine/2/spine.min.css" rel="stylesheet" type="text/css" />
+
+	<!-- Site specific stylesheets should be inserted after the Spine CSS above. -->
+
+	<meta name="viewport" content="width=device-width, user-scalable=yes">
+
+
+	<!-- Current library versions can be found at https://developers.google.com/speed/libraries/ -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+
+	<script src="https://repo.wsu.edu/spine/2/spine.min.js"></script>
+
+	<!-- Site specific JavaScript should be inserted after jQuery and the Spine JS above, ideally at the end of the document. -->
+
+	<!-- Include an HTML5 compatibility shim for HTML5 -->
+	<!--[if lt IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script><![endif]-->
+
+	<!-- Ensure the Spine is displayed fully when no-JS -->
+	<noscript>
+		<style>
+			#spine .spine-sitenav ul ul li {
+				display: block !important;
+			}
+		</style>
+	</noscript>
+
+</head>
+
+<body>
+<a href="#wsu-main-content" class="screen-reader-shortcut">Skip to main content</a>
+<a href="#spine-navigation" class="screen-reader-shortcut">Skip to navigation</a>
+
+<div id="jacket">
+
+	<!-- Fluid layout is recommended and supported. "hybrid" and "fixed" are also possible here. -->
+	<div id="binder" class="fluid">
+
+		<!-- Primary site content should go within this main element. -->
+		<main id="wsu-main-content">
+
+			<!-- A variety of section layouts are available. -->
+			<section class="row side-right gutter pad-bottom tall">
+
+				<!-- Sections (rows) contain one or more columns. -->
+				<div class="column one">
